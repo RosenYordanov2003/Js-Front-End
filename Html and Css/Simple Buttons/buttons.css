@@ -1,0 +1,84 @@
+#SubscribeButton{
+    background-color: red;
+    color:white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    transition: opacity 300ms;
+    cursor:pointer;
+    margin-right: 10px;
+}
+#SubscribeButton:hover{
+    opacity:0.7 ;
+}
+#SubscribeButton:active{
+ opacity: 0.1;
+}
+
+#JoinButton{
+    background-color: white;
+    color: rgb(0, 162, 255) ;
+    height: 40px;
+    width: 50px;
+    border: 1px solid rgb(0, 162, 255) ;
+    cursor:pointer;
+    transition: opacity 0.15s, background-color 1s, color 1s;
+}
+#JoinButton:hover{
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+#JoinButton:active{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    opacity: 0.2;
+}
+#TweetButton{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    margin-left: 10px;
+    border-radius: 18px;
+    font-weight: bold;
+    height: 36px;
+    width: 74px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.10);
+    transition: opacity 0.15s;
+}
+#TweetButton:active{
+    opacity: 0.2;
+}
+
+#AddToCartButton{
+    background-color:#ffe135;
+    color : black;
+    margin-top: 10px;
+    border: none;
+    height: 35px;
+    width: 147px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+#AddToCartButton:hover{
+    background-color:#f4ca16;
+    color: black;
+}
+#DiscordButton{
+    background-color: #4169e1 ;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    transition: background-color 0.15s,opacity 0.15s;
+}
+#DiscordButton:hover{
+   background-color: #6495ed;
+}
+#DiscordButton:active{
+    opacity:0.6;
+}
+
