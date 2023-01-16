@@ -1,0 +1,16 @@
+#back-button{
+    margin-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 13px;
+}
+#Next-button{
+    margin-left: 5px;
+    padding: 6px;
+    padding-bottom: 6px;
+    font-size: 13px;
+}
+main a {
+    margin-left: 3px;
+    margin-right: 3px;
+}

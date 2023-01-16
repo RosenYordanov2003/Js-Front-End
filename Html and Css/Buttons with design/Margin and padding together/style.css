@@ -1,0 +1,20 @@
+#buttonPaddingandargin{
+    color: white;
+    background-color: rgb(15, 156, 15);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: padding 0.15s,margin 0.15s;
+}
+#buttonPaddingandargin:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
