@@ -1,0 +1,27 @@
+html{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body h1{
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+body h2{
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+ol{
+    list-style-type: 1;
+}
+ul{
+    list-style-type: square;
+}
+.firstNestedList{
+    list-style-type: disc;
+}
+.firstNestedList ul{
+    list-style-type: circle;
+}
