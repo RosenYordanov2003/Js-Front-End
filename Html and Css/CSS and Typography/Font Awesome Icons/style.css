@@ -1,6 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 body {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 nav {
   width: 200px;
@@ -26,15 +26,15 @@ button {
   padding: 4px 12px;
   line-height: 20px;
   color: #ffffff;
-  border: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
-.button-shopping {
+button.shopping {
   background-color: #83a94c;
 }
-.button-info {
+button.info {
   background-color: #008ed0;
 }
-.button-delete {
+button.delete {
   background-color: #cc4036;
 }
