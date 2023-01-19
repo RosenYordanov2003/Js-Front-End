@@ -1,0 +1,47 @@
+html{
+    font-family: Helvetica, sans-serif ;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+blockquote{
+    border-left: rgb(221, 221, 221);
+    font-style: italic;
+}
+aside{
+    
+    margin-left: 1850px;
+    margin-top: 20px;
+}
+blockquote{
+    border-left: 5px solid #dcdcdc;
+    height: 200px;
+    padding-left: 20px;
+}
+ul{
+    list-style: square;
+}
+ul .firstNestedList{
+    list-style: disc;
+}
+.firstNestedList ul{
+    list-style: circle;
+}
+table{
+    border-collapse: collapse;
+}
+table thead{
+    background-color: rgb(211, 211, 211);
+    width: 144px;
+    height: 32px;
+}
+td{
+    width: 400px;
+    height: 32px;
+    border: solid 2px  #dcdcdc;
+    padding-left: 5px;
+   
+}
+
