@@ -1,0 +1,31 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+header h1 {
+  position: absolute;
+}
+nav {
+  margin-left: 240px;
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(5, 151, 5);
+}
+main {
+  line-height: 24px;
+  overflow: auto;
+  text-align: justify;
+  width: 1200px;
+}
+main h1 {
+  font-weight: 500;
+}
