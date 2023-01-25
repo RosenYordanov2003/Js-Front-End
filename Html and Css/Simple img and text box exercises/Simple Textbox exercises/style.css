@@ -1,0 +1,51 @@
+.simple-serach {
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+}
+.search-google {
+  margin-left: 10px;
+  width: 400px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: none;
+}
+button {
+  padding: 12px 15px;
+  background-color: #0066b2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 300px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0px;
+  color: rgb(100, 100, 100);
+  font-family: Arial;
+}
+.label {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.textbox {
+  width: 400px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.description{
+    margin-bottom: 20px;
+}
