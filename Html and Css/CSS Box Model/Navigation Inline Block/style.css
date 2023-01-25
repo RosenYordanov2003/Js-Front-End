@@ -1,31 +1,23 @@
-html {
-  font-family: Helvetica, sans-serif;
+html{
+    font-family: Helvetica,sans-serif;
 }
-
-header {
-  border-bottom: 2px solid black;
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
 }
-header h1 {
-  position: absolute;
+header nav{
+    display: inline-block;
+    margin-left: 50px;
 }
-nav {
-  margin-left: 240px;
-  display: inline-block;
+header nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    color:#03C03C;
 }
-li {
-  display: inline-block;
-  padding: 10px;
+main p{
+    line-height: 1.5;
 }
-li a {
-  text-decoration: none;
-  color: rgb(5, 151, 5);
-}
-main {
-  line-height: 24px;
-  overflow: auto;
-  text-align: justify;
-  width: 1200px;
-}
-main h1 {
-  font-weight: 500;
+main h2{
+    font-weight: 450;
 }
