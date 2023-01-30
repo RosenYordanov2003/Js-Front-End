@@ -1,0 +1,26 @@
+h2{
+    margin-top: 0;
+}
+input{
+    display: block;
+    margin-bottom: 8px;
+    background-color: #f0f0f0;
+    padding: 15px 20px;
+    width: 400px;
+    border: none;
+    color: #898989;
+}
+button{
+    padding: 15px 25px;
+    margin-top: 22px;
+    margin-right: 20px;
+    border: none;
+}
+.request-button{
+    background-color: #000000;
+    color: #d8d8d8;
+}
+.schedule-later-button{
+    color: #040404;
+    background-color: #d8d8d8;
+}
