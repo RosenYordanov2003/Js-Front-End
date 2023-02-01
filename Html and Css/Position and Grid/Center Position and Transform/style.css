@@ -1,0 +1,52 @@
+body {
+  background-color: #eeeeee;
+  margin: 0px;
+}
+.container {
+  height: 50vh;
+}
+.card div .description,
+.container {
+  position: relative;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card div img {
+  width: 100%;
+}
+.container .description a {
+  text-decoration: none;
+  color: white;
+  background-color: #019a00;
+  border-radius: 4px;
+  padding: 10px 12px;
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  margin-bottom: 26px;
+  margin-right: 20px;
+}
+.container .description p {
+  margin-right: 9px;
+  width: 340px;
+  margin-top: 0px;
+  margin-left: 16px;
+  top: 50px;
+}
+.container .description .title {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  margin-left: 17px;
+  margin-bottom: 14px;
+}
