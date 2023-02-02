@@ -1,0 +1,45 @@
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  min-width: 220px;
+}
+body,
+p {
+  margin: 0px;
+}
+.container .user-profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.user-container {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+.user-container .username {
+  font-weight: bold;
+}
+.user-container .user-description,
+.famous-level {
+  color: #8f8e8e;
+}
+section {
+  position: relative;
+}
+.follow-button {
+  box-sizing: border-box;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 18px;
+  background-color: #4193ef;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 8px;
+}

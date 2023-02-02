@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container .second-p{
+    flex: 1;
+    background-color: lightpink;
+}
+.container .first-p, .third-p{
+    background-color: lightblue;
+}
+.container .first-p{
+    width: 50px;
+}
+.container .third-p{
+    width: 75px;
+}

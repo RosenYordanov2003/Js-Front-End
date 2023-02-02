@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 1px 1px 1px black 0.2;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 40%;
+  font-family: Arial;
+}
+section {
+  margin-bottom: 12px;
+  position: relative;
+}
+.container p {
+  margin: 0px;
+  display: inline-block;
+}
+.container section button {
+  background-color: #416cec;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}

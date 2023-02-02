@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container .pink-p {
+  background-color: lightpink;
+  width: 75px;
+}
+.container .blue-p {
+  background-color: lightblue;
+  width: 200px;
+}

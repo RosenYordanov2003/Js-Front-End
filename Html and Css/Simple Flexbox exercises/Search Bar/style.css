@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #7254ac;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container .search-form{
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+.container button{
+    background-color: #7254ac;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+}

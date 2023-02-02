@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container p{
+    background-color: lightpink;
+}
