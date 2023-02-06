@@ -1,0 +1,25 @@
+body {
+  background-color: #eeeeee;
+  display: flex;
+  width: 50vw;
+}
+
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  min-width: 1400px;
+  justify-content: space-between;
+}
+.gallery ul li {
+  list-style: none;
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.gallery ul li img {
+  box-sizing: border-box;
+  border: 6px solid black;
+  padding: 22px 18px;
+  object-fit: cover;
+}

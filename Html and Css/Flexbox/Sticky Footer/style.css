@@ -1,0 +1,30 @@
+html{
+    font-family: Helvetica, sans-serif ;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-basis: 100%;
+    border-bottom: 2px solid black;
+}
+header h1{
+    margin: 0px;
+}
+main h2{
+    font-weight: 500;
+    margin-top: 50px;
+}
+main article p{
+    line-height: 1.4;
+}
+footer{
+    display: flex;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    flex-basis: 100%;
+}
