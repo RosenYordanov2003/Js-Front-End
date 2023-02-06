@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  background-color: #eee;
+  padding: 5rem;
+  flex-wrap: wrap;
+}
+header,
+main,
+footer,
+aside {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  color: #000;
+  margin: 20px;
+  box-shadow: 0px 0px 6px black;
+  text-transform: uppercase;
+}
+main,aside{
+    padding: 20px 10px 370px 10px;
+}
+header{
+    padding-bottom: 130px;
+}
+footer{
+    padding-bottom: 80px;
+}
+header,
+footer {
+  flex-basis: 100%;
+  padding-top: 20px 10px 0px 10px;
+}
+main {
+  flex: 8 1 40rem;
+}
+aside {
+  flex: 2 1 20rem;
+}
