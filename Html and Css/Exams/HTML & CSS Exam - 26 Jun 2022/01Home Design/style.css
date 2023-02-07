@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+html {
+  font-family: Courgette;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+header .header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+header {
+  position: relative;
+  margin-bottom: 50px;
+}
+header .header-subtitle {
+  color: #cb1e24;
+  margin: 0px;
+  position: absolute;
+  top: 30px;
+  right: 402px;
+  margin: 8px 0px;
+}
+body {
+  background-color: #f5f5f5;
+  max-width: 1000px;
+  height: 100vh;
+  margin: 0px auto;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 12px;
+  background-color: white;
+  width: 300px;
+}
+.card .img-container img {
+  width: 100%;
+  border-radius: 12px;
+}
+.card .card-content {
+  padding: 18px 14px;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card .card-title {
+  display: flex;
+  border-bottom: solid 2px #e38a8e;
+  padding-bottom: 18px;
+  justify-content: center;
+}
+.card .card-description {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.card footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card i {
+  color: white;
+  background-color: #cf342c;
+  border-radius: 100%;
+  padding: 2px 3px 2px 3px;
+  font-size: 10px;
+}
