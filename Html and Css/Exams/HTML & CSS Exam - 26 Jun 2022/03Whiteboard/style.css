@@ -1,0 +1,164 @@
+body {
+  max-width: 1100px;
+  margin: 0px auto;
+  font-family: "PT Sans", sans-serif;
+}
+header {
+  background-image: url(image/computer-main.jpg);
+  background-size: cover;
+  height: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(image/computer-main.jpg);
+}
+.navigation-icons,
+.navigation-icons ul {
+  display: flex;
+  gap: 800px;
+  margin-bottom: 20px;
+}
+.navigation-icons ul li {
+  list-style: none;
+}
+.navigation-icons ul li i {
+  margin-right: 5px;
+}
+.navigation-icons ul li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 3px 2px black;
+}
+header .header-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 3rem;
+  text-shadow: 0px 3px 3px black;
+  margin-top: 0px;
+}
+header .header-subtitle {
+  text-align: center;
+  width: 42%;
+  font-size: 1.3rem;
+  text-shadow: 0px 3px 3px black;
+  color: white;
+  margin-top: 0px;
+}
+header button {
+  background-color: #00d08e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 18px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+header p {
+  text-shadow: 0px 3px 3px black;
+  color: white;
+  font-size: 1.5rem;
+}
+header p i {
+  margin-left: 8px;
+  text-shadow: none;
+  border-radius: 100%;
+  font-size: 1.2rem;
+}
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+.container .img-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.container .hustle-benefits .hustle-title {
+  margin-left: 44px;
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+}
+.container .hustle-benefits .hustle-description {
+  font-size: 1.4rem;
+  width: 66%;
+  margin-left: 44px;
+}
+.container .hustle-benefits {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+.container .hustle-benefits li {
+  display: flex;
+  flex-grow: 1;
+  font-size: 1.3rem;
+}
+.container .hustle-benefits li p {
+  margin: 0px;
+  margin: 0px 0px 12px 28px;
+}
+.container .hustle-benefits li i {
+  color: #00d08e;
+}
+.container .hustle-suitable-people {
+  margin-left: 70px;
+}
+.container .hustle-suitable-people .suit-title{
+  margin: 0px;
+  font-size: 2rem;
+  margin: 20px 0px 50px -14px;
+}
+.container .hustle-suitable-people .grid-cotaniner {
+  display: grid;
+  grid-template-rows: 120px 120px;
+  grid-template-columns: 90px 90px 90px;
+  gap: 28px;
+}
+.container .hustle-suitable-people .grid-cotaniner p {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  color:#1ad18d;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin: 8px 0px 0px -34px;
+}
+.container .hustle-suitable-people section img {
+  width: 50px;
+  height: 50px;
+}
+.container .pen-img img{
+ width: 600px;
+ height: 400px;
+ object-fit: cover;
+}
+
+footer{
+  background-color: #b2f1dd;
+}
+footer .footer-title{
+  text-align: center;
+}
+footer .footer-container{
+  display: grid;
+  grid-auto-flow: 1fr 1fr;
+  grid-template-columns: 280px 280px 280px;
+  gap: 24px;
+}
+footer .footer-container article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .email-paragraph{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
