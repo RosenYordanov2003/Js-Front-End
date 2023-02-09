@@ -1,0 +1,88 @@
+body {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0px auto;
+  font-family: Mulish;
+}
+
+input {
+  box-shadow: black 0px 0px 1px;
+}
+.container {
+  width: 50%;
+  background-image: url(images/form-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 20px 30px 40px;
+  border-radius: 20px;
+  box-shadow: 20px 18px 40px 2px #888888;
+
+}
+.container .container-title{
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 24px;
+  padding: 24px 10px  10px 40px;
+}
+.container .name-inputs {
+  display: flex;
+  gap: 14px;
+}
+.container .first-name-input,
+.last-name-input {
+  display: flex;
+  flex-direction: column;
+}
+.container .first-name-input input,
+.last-name-input input {
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  background-color: white;
+  padding: 14px 12px;
+  margin-bottom: 12px;
+}
+.container .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container label {
+  color: #999fa3;
+  margin-bottom: 8px;
+}
+.container .user-info input {
+  border-radius: 20px;
+  border: none;
+  width: 58%;
+  background-color: white;
+  padding: 14px 12px;
+  margin-bottom: 12px;
+}
+.checkbox{
+  box-shadow: none;
+}
+.container button{
+  color: white;
+  text-transform: uppercase;
+  background-color: #ae3c33;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 24px;
+}
+.button-container{
+  text-align: center;
+}
+main{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
