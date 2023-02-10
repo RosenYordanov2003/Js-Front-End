@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Abril Fatface" ;
+  font-family: "Abril Fatface";
 }
 
 header {
@@ -31,15 +31,18 @@ header .header-title-content {
   box-shadow: 0px 0px 7px 1px rgb(1, 1, 1, 0.7);
   position: absolute;
   left: 72px;
-  top: 68px;
+  top: 64px;
   padding: 0px 20px 0px 12px;
 }
 header .header-title-content .header-title {
   font-size: 38px;
-  line-height: 1.5;
+  margin-bottom: 0px;
 }
+header .header-title-content .header-title:nth-child(2){
+  margin-top: 8px;
+}
+
 header .header-title-content .header-subtitle {
-  /* border-top: 1px solid white ; */
   font-weight: 400;
 }
 
@@ -56,10 +59,10 @@ header > section.header-description-content {
   padding: 50px 10px 10px 22px;
   box-shadow: 0px 0px 7px 1px rgb(1, 1, 1, 0.7);
 }
-header.quotes{
+header.quotes {
   margin: 0px;
 }
-.container .services{
+.container .services {
   background-color: #f2f0f3;
   margin-top: 0px;
   width: 64%;
@@ -68,79 +71,75 @@ header.quotes{
   flex-direction: column;
   justify-content: center;
 }
-.container .services .service-title{
+.container .services .service-title {
   font-size: 32px;
   font-weight: 900;
   text-transform: uppercase;
 }
-.container .service-content{
- width: 77%;
- color: black;
+.container .service-content {
+  width: 77%;
+  color: black;
 }
-.special-text{
+.special-text {
   font-weight: bold;
   text-transform: uppercase;
   margin-left: 6px;
 }
-.services-contacts .service-title{
+.services-contacts .service-title {
   border-bottom: 2px solid black;
 }
-body > main > section > section.contats > ul{
+body > main > section > section.contats > ul {
   margin-left: -40px;
- list-style: none;
- display: flex;
- flex-wrap: wrap;
- width: 650px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 650px;
 }
-body > main > section > section.contats > ul>li{
- margin-right: 12px;
+body > main > section > section.contats > ul > li {
+  margin-right: 12px;
 }
-.btns input{
- background-color: #bab1ad;
- border: none;
- border-radius: 6px;
- padding: 12px 14px;
- width: 220px;
- margin-right: 10px;
+.btns input {
+  background-color: #bab1ad;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 14px;
+  width: 220px;
+  margin-right: 10px;
 }
-.btns input::placeholder{
+.btns input::placeholder {
   color: white;
 }
-.btns button{
+.btns button {
   color: white;
   padding: 10px 20px;
   background-color: #67784d;
   border: none;
 }
-.container{
+.container {
   display: flex;
 }
-aside{
-  
-  background-color:#bab1ad ;
+aside {
+  background-color: #bab1ad;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-aside .aside-content,.aside-title{
+aside .aside-content,
+.aside-title {
   margin: 0px;
 }
-aside ul{
+aside ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 140px;
 }
-aside ul li{
-  display: flex;
-  flex-direction: column;
-}
-aside ul li .aside-title{
+aside ul li .aside-title {
   color: white;
   font-size: 60px;
   font-weight: 400;
 }
-aside ul li .aside-content{
+aside ul li .aside-content {
   text-transform: uppercase;
   font-size: 14px;
 }
