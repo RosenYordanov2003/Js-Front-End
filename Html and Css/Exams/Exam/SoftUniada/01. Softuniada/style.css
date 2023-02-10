@@ -1,0 +1,66 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+body {
+  font-family: Lato;
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0px auto;
+  background-color: #fbfbfb;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+header {
+  background-color: #ffa200;
+  border-radius: 4px;
+  padding: 24px 10px 24px 24px;
+}
+header .header-title {
+  display: inline-block;
+  color: white;
+  margin: 0px;
+  vertical-align: top;
+}
+header .icon {
+  margin-right: 10px;
+  font-size: 22px;
+  color: white;
+  text-align: end;
+}
+section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 10px 10px 36px 32px;
+}
+section .section-title {
+  margin-top: 0px;
+  font-size: 15px;
+}
+main section:nth-child(1) {
+  margin-bottom: 4px;
+}
+main section:nth-child(2) {
+  padding: 10px 14px 72px 32px;
+  border-radius: 4px;
+}
+main section .time {
+  font-size: 14px;
+  color: #c2c4c8;
+}
+.container {
+  width: 1200px;
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 0px 16px #DCDCDC,-3px 0px 16px #DCDCDC ;
+  border-radius: 8px;
+}
