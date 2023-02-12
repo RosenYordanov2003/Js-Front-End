@@ -1,0 +1,145 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+body {
+  font-family: "Roboto";
+  max-width: 1200px;
+  margin: 0px auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface";
+}
+
+header {
+  background-image: url(image/image.jpg);
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+header .header-title-content {
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  width: 220px;
+  height: 220px;
+  box-shadow: 0px 0px 7px 1px rgb(1, 1, 1, 0.7);
+  position: absolute;
+  left: 72px;
+  top: 64px;
+  padding: 0px 20px 0px 12px;
+}
+header .header-title-content .header-title {
+  font-size: 38px;
+  margin-bottom: 0px;
+}
+header .header-title-content .header-title:nth-child(2){
+  margin-top: 8px;
+}
+
+header .header-title-content .header-subtitle {
+  font-weight: 400;
+}
+
+header > section.header-description-content {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  width: 280px;
+  height: 240px;
+  background-image: linear-gradient(to right, #9b9189, #c9c7c6);
+  color: white;
+  line-height: 1.7;
+  text-align: right;
+  padding: 50px 10px 10px 22px;
+  box-shadow: 0px 0px 7px 1px rgb(1, 1, 1, 0.7);
+}
+header.quotes {
+  margin: 0px;
+}
+.container .services {
+  background-color: #f2f0f3;
+  margin-top: 0px;
+  width: 64%;
+  padding: 30px 0px 30px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .services .service-title {
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.container .service-content {
+  width: 77%;
+  color: black;
+}
+.special-text {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 6px;
+}
+.services-contacts .service-title {
+  border-bottom: 2px solid black;
+}
+body > main > section > section.contats > ul {
+  margin-left: -40px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 650px;
+}
+body > main > section > section.contats > ul > li {
+  margin-right: 12px;
+}
+.btns input {
+  background-color: #bab1ad;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 14px;
+  width: 220px;
+  margin-right: 10px;
+}
+.btns input::placeholder {
+  color: white;
+}
+.btns button {
+  color: white;
+  padding: 10px 20px;
+  background-color: #67784d;
+  border: none;
+}
+.container {
+  display: flex;
+}
+aside {
+  background-color: #bab1ad;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+aside .aside-content,
+.aside-title {
+  margin: 0px;
+}
+aside ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+aside ul li .aside-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+}
+aside ul li .aside-content {
+  text-transform: uppercase;
+  font-size: 14px;
+}
