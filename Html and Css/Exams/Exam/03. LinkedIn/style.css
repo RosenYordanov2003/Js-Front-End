@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto:ital,wght@0,400;1,300&display=swap");
 body {
-  max-width: 1000px;
   margin: 0px auto;
   font-family: "Roboto";
+  min-width: 1080px;
 }
 /* navigation */
 header {
@@ -10,6 +10,7 @@ header {
 }
 header nav .nav-logo {
   width: 200px;
+  padding-left: 10px;
 }
 header nav {
   display: flex;
@@ -20,6 +21,7 @@ header nav ul {
   display: flex;
   list-style: none;
   align-items: center;
+  padding-right: 220px;
 }
 header nav ul li {
   margin-left: 0.7rem;
@@ -41,11 +43,13 @@ header nav ul li .join-now {
 .register-section .log-in {
   display: flex;
   flex-direction: column;
+  width: 60%;
 }
 .register-section {
   display: flex;
   width: 60%;
-  margin-bottom: 150px;
+  margin-bottom: 260px;
+  padding-left: 40px;
 }
 .register-section img {
   width: 39%;
@@ -79,3 +83,160 @@ header nav ul li .join-now {
   padding: 12px 10px 10px 12px;
 }
 /* jobs */
+main .jobs {
+  background-color: #faf9f7;
+  width: 100%;
+  padding: 100px 70px 100px 70px;
+}
+main .jobs .jobs-section ul {
+  list-style: none;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main .jobs .jobs-section ul li {
+  margin-bottom: 8px;
+  border-radius: none;
+  padding: 12px 16px;
+  background-color: #e6e5e4;
+  border-radius: 20px;
+  color: #686867;
+  font-weight: bold;
+}
+main .jobs {
+  display: flex;
+  gap: 332px;
+  align-items: center;
+}
+main .jobs .jobs-title {
+  font-size: 48px;
+  width: 20%;
+  font-weight: 400;
+}
+main .jobs .jobs-section .jobs-subtitle {
+  font-size: 14px;
+  color: #62605e;
+  flex-basis: 100%;
+  font-size: 14px;
+}
+/* post-jobs */
+main .post-jobs {
+  display: flex;
+  background-color: #f1ece5;
+  padding: 60px 70px 60px 70px;
+  align-items: center;
+  gap: 160px;
+}
+.post-jobs-title {
+  color: #b24020;
+  width: 30%;
+  font-size: 48px;
+  font-weight: 400;
+}
+main .post-jobs button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: #736e69;
+  padding: 12px 12px;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* open to work */
+main .open-to-work {
+  background-color: #faf9f7;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  padding: 100px 70px 60px 100px;
+}
+main .open-to-work img {
+  width: 22%;
+}
+main .open-to-work .content {
+  width: 20%;
+}
+main .open-to-work .content .content-title {
+  color: #2977c9;
+  font-size: 44px;
+  font-weight: 400;
+}
+main .open-to-work .content .content-description {
+  line-height: 1.4;
+  color: #191818;
+  font-size: 22px;
+}
+/* find-people */
+main .find-people .content img {
+  width: 38%;
+}
+main .find-people {
+  display: flex;
+  padding: 90px 0px 90px 70px;
+  background-color: white;
+}
+main .find-people .content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+main .find-people .content .content-title {
+  margin-top: 32px;
+  font-size: 38px;
+  width: 64%;
+  font-weight: 400;
+}
+main .find-people .content button {
+  color: #666666;
+  background-color: transparent;
+  border: 1px solid #969696;
+  border-radius: 20px;
+  width: 230px;
+  font-weight: bold;
+  padding: 10px 8px;
+  font-size: 18px;
+}
+/* join */
+main .join {
+  /* TODO */
+  position: relative;
+}
+.join .join-content {
+  position: absolute;
+  top: 30px;
+  left: 215px;
+}
+.join .join-content .join-title {
+  color: #2977c9;
+  width: 68%;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.join .join-content button {
+  color: white;
+  background-color: #0a66c2;
+  padding: 14px 12px;
+  border-radius: 20px;
+  border: none;
+}
+/* footer */
+footer {
+  padding: 20px 100px 100px 100px;
+  background-color: #faf9f7;
+  display: flex;
+ justify-content: space-between;
+}
+footer img {
+  width: 8%;
+}
+footer ul {
+  list-style: none;
+  margin-right: auto;
+}
+footer ul h5 {
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
