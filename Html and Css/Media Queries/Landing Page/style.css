@@ -1,0 +1,173 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+body {
+  background-color: #fefefe;
+  padding: 12px 120px 80px 120px;
+}
+hr {
+  width: 52px;
+  font-weight: bold;
+  color: black;
+  background-color: black;
+  height: 2px;
+  border: none;
+}
+/* header */
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 12px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .titles {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  justify-content: center;
+}
+header .titles .title {
+  margin: 0px;
+  color: #7f0d89;
+}
+header .titles .sub-title {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 12px;
+}
+/* need a website */
+main .Need-a-website {
+  padding: 60px 68px 60px 68px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .Need-a-website .content {
+  width: 55%;
+}
+main .Need-a-website .content .description {
+  width: 58%;
+  line-height: 1.2;
+}
+.planet {
+  width: 45%;
+  font-size: 150px;
+}
+main .Need-a-website .content button {
+  border: solid 1px black;
+  background-color: transparent;
+  padding: 6px 12px;
+}
+/* our team */
+main .team-title,
+.testimonials-title {
+  margin: 0px;
+  text-align: center;
+  flex-basis: 100%;
+  /* margin-bottom: 20px; */
+}
+main .Our-Team .employee,
+.people-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 14px;
+  margin-top: 12px;
+}
+main .Our-Team .employee img,
+.people-card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+main .Our-Team .employee .employee-name,
+.people-name {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+main .Our-Team .employee .employee-position,
+.people-title {
+  margin-top: 5px;
+  font-size: 11px;
+}
+main .Our-Team .employee .employee-behaviour,.people-card .content {
+  margin-top: 0px;
+  font-size: 11px;
+}
+main .Our-Team,
+.people {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* Sign-up-to-our-Newsletter */
+.Sign-up-to-our-Newsletter {
+  background-color: #68347b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 34px 20px;
+}
+.sign-up-title {
+  color: white;
+  margin-top: 0px;
+}
+.subscribe {
+  margin-top: 10px;
+}
+.subscribe button {
+  background-color: white;
+  font-size: 10px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 2px;
+}
+.people-card{
+  margin-right: 30px;
+}
+/* footer */
+footer{
+  background-color: #fefefe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#contacts ul{
+  list-style: none;
+}
+#contacts ul li{
+  margin-top: 4px;
+}
+#contacts ul li i{
+  margin-right: 5px;
+}
+footer section .title{
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+footer section nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+footer section nav ul{
+  list-style: none;
+}
+footer section nav ul li{
+  margin-bottom: 5px;
+}
+footer section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 33.33%;
+}

@@ -1,0 +1,78 @@
+/* laptop */
+@media all and (min-width: 766px) and (max-width: 1920px) {
+  body {
+    padding: 12px 30px 80px 30px;
+  }
+  header .menu {
+    display: none;
+  }
+}
+/* phone */
+@media all and (max-width: 600px) {
+  html {
+    font-size: 9px;
+  }
+  header nav ul li a {
+    display: none;
+  }
+  body {
+    padding: 1px 20px 10px 10px;
+  }
+  main .Our-Team {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  main .Need-a-website {
+    padding: 20px 8px 34px 8px;
+  }
+  main .people {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 25px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+  }
+}
+/* tablet */
+@media all and (max-width: 1024px) {
+  body {
+    padding: 12px 30px 80px 30px;
+  }
+  header nav ul li a {
+    display: none;
+  }
+  body {
+    padding: 1px 20px 10px 10px;
+  }
+  main .Our-Team {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  main .Need-a-website {
+    padding: 20px 8px 34px 8px;
+  }
+  main .people {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 25px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  footer section .description{
+   width: 600px;
+  }
+}
