@@ -1,0 +1,35 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+@media all and (max-width: 600px) {
+  form {
+    width: 50%;
+    height: 60vh;
+  }
+  form .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  form .container i {
+    position: absolute;
+    top: 19px;
+    left: 10px;
+    font-size: 8px;
+  }
+}
+@media all and (max-width: 1300px) and (min-width:740px) {
+    form {
+        width: 20vw;
+        height: 40vh;
+      }
+      form .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      form .container i {
+        position: absolute;
+        top: 19px;
+        left: 10px;
+        font-size: 8px;
+      }
+}
