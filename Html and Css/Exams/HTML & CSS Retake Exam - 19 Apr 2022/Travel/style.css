@@ -1,0 +1,199 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+/* header */
+header {
+  margin-right: 70px;
+  padding-top: 20px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+header ul li {
+  margin-right: 44px;
+  color: #4f5773;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 10px;
+}
+header ul p {
+  margin: 0px;
+  margin-top: 6px;
+}
+header nav ul li {
+  margin-right: 42px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #4f5773;
+  text-transform: uppercase;
+}
+header ul li i {
+  font-size: 24px;
+}
+header ul li:hover {
+  background-color: #b58e0f;
+}
+/* main first-section */
+main .main-section {
+  background-image: url(image/slider.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  width: 100%;
+  position: relative;
+}
+main .main-section .logo {
+  padding: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(150, 103, 11, 1) 20%,
+    rgba(208, 172, 60, 1) 100%
+  );
+  position: absolute;
+  top: -150px;
+  left: 70px;
+}
+main .main-section .content {
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  width: 34%;
+  height: 40%;
+  padding: 24px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .main-section .content .title {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+main .main-section .content .description {
+  width: 84%;
+  line-height: 1.4;
+}
+main .main-section div button {
+  background-color: transparent;
+  color: #f49a00;
+  border: 2px solid white;
+  padding: 20px 66px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+main .main-section div button:hover {
+    background-color: white;
+}
+/* budapesht card */
+main .section-card {
+  background: linear-gradient(
+    90deg,
+    rgba(150, 103, 11, 1) 0%,
+    rgba(208, 172, 60, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 38px;
+}
+main .section-card .title {
+  margin: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  margin-left: -200px;
+}
+main .section-card ul {
+  list-style: none;
+  font-size: 30px;
+}
+main .section-card ul i {
+  margin-right: 10px;
+  font-size: 28px;
+}
+main .section-card ul li p {
+  width: 70%;
+}
+main .section-card div button {
+  background-color: transparent;
+  color: white;
+  border: 4px solid white;
+  padding: 18px;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-left: -150px;
+  font-weight: bold;
+}
+/* section-card-2 */
+main .section-card-2 .title {
+  font-size: 44px;
+  font-weight: 200;
+  color: #4f5773;
+}
+main .section-card-2 .subtitle {
+  font-size: 28px;
+  font-weight: 200;
+  color: #4f5773;
+  width: 40%;
+  text-align: center;
+  margin-left: -100px;
+}
+main .section-card-2 .card-imgs article img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  padding: 3px;
+  background-color: white;
+  border: 1px solid black;
+}
+main .section-card-2 .card-imgs article .description {
+  color: #4f5773;
+  font-size: 14px;
+  text-align: center;
+}
+main .section-card-2 .card-imgs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+main .section-card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* section-newsletter */
+main .newsletter {
+  background-color: #b58e0f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 10px 30px;
+}
+main .newsletter .title {
+  color: white;
+  margin-bottom: 0px;
+}
+main .newsletter .content {
+  color: white;
+  margin-top: 10px;
+}
+main .newsletter div button {
+  font-size: 30px;
+  padding: 10px 16px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 3px solid white;
+  font-weight: bold;
+  color: white;
+}
+/* footer */
+footer {
+  text-align: center;
+  padding: 10px;
+}
