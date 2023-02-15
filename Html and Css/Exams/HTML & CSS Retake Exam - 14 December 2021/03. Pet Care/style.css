@@ -1,0 +1,212 @@
+body {
+  font-family: "Open Sans";
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  gap: 24px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #072454;
+  font-weight: bold;
+}
+.care-section {
+  margin-top: 24px;
+  background-image: url(images/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 160px 200px 0px 200px;
+  height: 86vh;
+}
+.care-section .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.care-section .content .title1 {
+  font-weight: 200;
+  color: white;
+  font-size: 92px;
+  margin: 0px;
+}
+.care-section .content .title2 {
+  color: white;
+  font-size: 100px;
+  margin: 0px;
+  font-weight: 900;
+}
+.care-section .content .description {
+  color: white;
+  width: 74%;
+  line-height: 2;
+  margin-bottom: 48px;
+}
+.care-section .content div button {
+  background-color: #ffffff;
+  color: #ff4213;
+  padding: 25px 25px;
+  border-radius: 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 21px;
+  width: 250px;
+}
+.care-section .img-container img {
+  width: 100%;
+  height: 115%;
+}
+/* service dog */
+.service .cards .card img {
+  background-image: url(images/service-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+}
+.service .cards .card {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  border: 1px solid #ffe8e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service .cards .card .title {
+  font-size: 24px;
+}
+.service .cards .card .description {
+  text-align: center;
+  color: #919193;
+}
+.service .cards {
+  display: flex;
+  gap: 28px;
+}
+.service {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.service .title {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+.service .title-description {
+  margin-top: 15px;
+  width: 32%;
+  text-align: center;
+  color: #919193;
+  line-height: 2;
+  margin-bottom: 80px;
+}
+/* section-3 */
+.cat-img {
+  height: 480px;
+}
+.third-section .content h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.third-section .content h2 {
+  font-size: 42px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.third-section .content .description {
+  color: #919193;
+ font-size: 16px;
+ width: 70%;
+ text-align: 1.6;
+}
+.third-section .content button {
+  background: rgb(240, 71, 44);
+  background: linear-gradient(
+    91deg,
+    rgba(240, 71, 44, 1) 32%,
+    rgba(238, 87, 15, 1) 75%
+  );
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 16px 30px;
+  border-radius: 30px;
+  width: 140px;
+  margin-top: 30px;
+}
+.third-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin: 50px 450px;
+    align-items: center;
+  }
+/* fourth-section */
+.fourth-section{
+    background-image: url(images/cats-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-section .title{
+    font-size: 50px;
+    color: white;
+   margin-bottom: 0px;
+}
+.fourth-section .description{
+    color: white;
+    margin-top: 22px;
+    font-size: 18px;
+}
+.fourth-section .contacts{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.fourth-section .contacts button{
+    background-color: white;
+    border: none;
+    width: 180px;
+    color: #ff4617;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.fourth-section .contacts p{
+    color: white;
+}
