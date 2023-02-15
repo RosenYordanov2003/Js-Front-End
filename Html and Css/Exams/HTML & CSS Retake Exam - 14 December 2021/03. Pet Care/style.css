@@ -64,16 +64,6 @@ header nav ul li a {
   line-height: 2;
   margin-bottom: 48px;
 }
-.care-section .content div button {
-  background-color: #ffffff;
-  color: #ff4213;
-  padding: 25px 25px;
-  border-radius: 40px;
-  border: none;
-  font-weight: bold;
-  font-size: 21px;
-  width: 250px;
-}
 .care-section .img-container img {
   width: 100%;
   height: 115%;
@@ -198,15 +188,38 @@ header nav ul li a {
     display: flex;
     gap: 20px;
 }
-.fourth-section .contacts button{
+.contact-btn{
     background-color: white;
     border: none;
-    width: 180px;
+    width: 190px;
     color: #ff4617;
     border-radius: 30px;
     font-weight: bold;
     font-size: 18px;
+    padding: 20px 0px 20px 0px;
 }
 .fourth-section .contacts p{
     color: white;
+}
+/* footer */
+footer{
+  padding: 120px;
+}
+footer nav ul{
+  list-style: none;
+}
+footer nav ul li a{
+  text-decoration: none;
+  color: #919193
+}
+footer nav ul li{
+  margin-top: 16px;
+}
+footer nav{
+  display: flex;
+  justify-content: space-around;
+}
+footer nav ul h2{
+  margin-bottom: 48px;
+  font-size: 24px;
 }
