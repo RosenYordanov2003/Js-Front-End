@@ -1,0 +1,54 @@
+html {
+  font-family: Helvetica;
+}
+body {
+  max-width: 1200px;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+* {
+  box-sizing: border-box;
+}
+article {
+  min-width: 900px;
+  background-color: #f6f8f9;
+  border-radius: 8px;
+  padding: 60px 60px 0px 60px;
+}
+article .content .title {
+  font-weight: 400;
+  color: #232e3d;
+  font-size: 30px;
+}
+article .content .subtitle {
+  font-weight: 400;
+  color: #232e3d;
+  font-size: 12px;
+}
+article .content .description {
+  color: #6e7a83;
+  width: 58%;
+  line-height: 2;
+}
+article .content .sales {
+  color: white;
+  border: none;
+  background-color: #786eff;
+  padding: 10px 22px;
+  border-radius: 2px;
+}
+article .content .learn-more {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 22px;
+  border-radius: 2px;
+  margin-left: 8px;
+}
+article img {
+  height: 334px;
+}
+article {
+  display: flex;
+  justify-content: center;
+}
