@@ -1,0 +1,18 @@
+@media all and (max-width:600px){
+    /* .w3-right{
+        display: none;
+    }
+     */
+    #about > article.w3-col.m6.w3-padding-large.w3-hide-small > img{
+        display: none;
+    }
+    /* .w3-col.m6 {
+        width: 100%;
+        text-align: center;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .w3-col.l6 {
+        width: 100%;
+    } */
+}

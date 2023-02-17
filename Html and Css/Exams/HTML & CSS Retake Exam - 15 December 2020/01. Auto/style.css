@@ -1,0 +1,55 @@
+html {
+  font-family: "Poppins";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+* {
+  box-sizing: border-box;
+}
+.page{
+  max-width: 1200px;
+  margin:150px auto;
+}
+.content .content-title {
+  font-weight: 800;
+  color: #232323;
+  line-height: 1.4;
+}
+.content .content-description {
+  color: #232323;
+  line-height: 1.3;
+}
+.content .benefits {
+  list-style: none;
+  padding-left: 0px;
+}
+.content .benefits li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.benefits .img-container {
+  max-width: 55px;
+}
+.benefits .img-container img {
+  width: 100%;
+}
+.benefits .benefit-content h2 {
+  margin-bottom: 8px;
+}
+.benefits .benefit-content p {
+ margin: 0px;
+}
+.page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+  gap: 100px;
+}

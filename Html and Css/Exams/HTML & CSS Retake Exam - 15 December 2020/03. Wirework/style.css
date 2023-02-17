@@ -1,0 +1,213 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+html {
+  font-family: Helvetica, sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.divider {
+  background-color: #a7a7a7;
+  width: 1px;
+  height: 3rem;
+}
+.subtitle {
+  font-weight: 200;
+  color: #3d4442;
+  font-size: 14px;
+}
+.subtitle span {
+  color: #a7a7a7;
+}
+.title {
+  font-size: 30px;
+  color: #2c383b;
+}
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+  padding-left: 0px;
+}
+nav ul li {
+  padding: 24px 18px;
+  background-color: #ececec;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3d4442;
+  padding: 26px;
+  letter-spacing: 2px;
+}
+nav ul li:hover {
+  background-color: #e24e2a;
+}
+nav ul li a:hover {
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+/* wirework */
+.wire-work{
+    padding: 0px;
+}
+.wire-work img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+.wire-work-content {
+  background-color: #e24e2a;
+  height: 18vh;
+  color: #f1c3bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.wire-work-content .content-wrapper {
+  width: 80%;
+  margin-left: auto;
+}
+.description {
+  width: 70%;
+  line-height: 1.4;
+}
+.description a {
+  color: white;
+}
+/* cards */
+.card-section {
+  background-color: #383838;
+  height: 35vh;
+}
+.card-title {
+  color: white;
+  font-weight: 400;
+}
+.card i {
+  color: white;
+  padding: 26px 26px;
+  background-color: #e24e2a;
+  font-size: 60px;
+  text-align: center;
+}
+hr {
+  color: black;
+  background-color: #484848;
+  width: 340px;
+  height: 2px;
+  border: none;
+}
+.card-description {
+  color: #5d6263;
+  width: 80%;
+  line-height: 1.9;
+}
+.cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84%;
+  margin: 0px auto;
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* article-section */
+.article-section {
+  background-color: #383838;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+.article-section .wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+}
+.article-section .wire-work .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.article-section .title {
+  margin-top: 0px;
+  color: white;
+  font-weight: 400;
+}
+.article-section .content .description {
+  color: #5d6263;
+  width: 80%;
+}
+/* btn-section */
+.btn-section {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+.btn-section .title{
+    color: #585858;
+    font-weight: normal;
+    margin: 0px;
+}
+.btn-section .subtitle{
+    font-weight: normal;
+    color: #aaa7a6;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.btn-section .wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+.btn-section button{
+    background-color: #1b9772;
+    color: white;
+    border: none;
+    padding: 22px 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+/* footer */
+footer{
+    background-color: #1b9772;
+    height: 20vh;
+    position: relative;
+}
+footer p{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #43ab94;
+}
+footer p span{
+    color: #6dbca5;
+}
