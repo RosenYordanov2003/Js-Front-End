@@ -1,0 +1,74 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+html {
+  font-family: "Open Sans";
+}
+body {
+  max-width: 1200px;
+  margin: 0px auto;
+  background-color: rgba(240, 219, 177, 255);
+}
+.card {
+  width: 430px;
+  height: 264px;
+  border-radius: 14px;
+  background-color: rgba(102, 84, 94, 255);
+  border: 2px solid black;
+  box-shadow: -5px 13px 84px 0px rgba(0, 0, 0, 0.75);
+}
+.card img {
+  width: 100%;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  height: 227px;
+}
+.card .card-content {
+  color: white;
+  margin: 0px;
+}
+.card .card-content p {
+  margin: 0px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 26px;
+  margin-top: 150px;
+}
+.menu .title {
+  color: #69545e;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  
+}
+.menu li {
+  margin-top: 12px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #69545e;
+  font-weight: bold;
+  font-size: 20px;
+  width: 72%;
+  display: inline-block;
+}
+.menu li a i {
+  margin-right: 8px;
+  padding: 3px;
+  background-color: #69545e;
+  color: rgba(240, 219, 177, 255);
+  border-radius: 100%;
+}
+.container {
+  display: flex;
+}
