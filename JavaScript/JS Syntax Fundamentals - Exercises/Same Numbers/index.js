@@ -3,6 +3,7 @@ function sovle(number) {
   let areSame = true;
   let oldDigit = 0;
   let iterations = 0;
+  
   while (number > 0) {
     let digit = number % 10;
     numberSum += digit;
