@@ -1,10 +1,4 @@
 function printMatrix(n) {
-  for (let i = 0; i < n; i++) {
-    let row = "";
-    for (let j = 0; j < n; j++) {
-      row += `${n} `;
-    }
-    console.log(row);
-  }
+  new Array(n).fill(new Array(n).fill(n)).forEach((row)=>console.log(row.join(' ')));
 }
-printMatrix(4);
+printMatrix(4); 

@@ -1,9 +1,8 @@
 function palindromeIntegers(array){
   
-    function isPalindrome(number){
-        const originalNumber = number;
-        const reversedNumber = Number(String(number).split('').reverse().join(''));
-        return originalNumber===reversedNumber;
+    const isPalindrome = (number,reversedNumber)=>{
+        reversedNumber = Number(String(number).split('').reverse().join(''));
+        return number===reversedNumber;
     }
 
     for (let index = 0; index < array.length; index++) {
