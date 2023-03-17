@@ -6,11 +6,11 @@ function solve() {
     const inputElement = document.getElementById("searchField");
     const inputValue = inputElement.value;
     Array.from(tdElements).forEach((td) => {
-      if (td.textContent.includes(inputValue)) {
-        td.parentElement.classList.add("select");
+      td.classList.remove('select')
+      if (inputValue && td.textContent.toLowerCase().includes(inputValue.toLowerCase())) {
+        td.className = 'select';
       }
     });
-    document.getElementById("searchField").value = '';
+    document.getElementById("searchField").value = "";
   }
 }
-
