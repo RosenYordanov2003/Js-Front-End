@@ -4,7 +4,7 @@ function solve() {
   const arriveButton = document.getElementById("arrive");
   const baseUrl = "http://localhost:3030/jsonstore/bus/schedule/";
   let stopObject = {nextStop:"depot"}
-  let stopId = stopObject.nextStop;
+  let stopId = 'depot';
   function depart() {
     fetch(`${baseUrl}${stopId}`)
       .then((res) => res.json())
@@ -15,16 +15,18 @@ function solve() {
         arriveButton.disabled = false;
         departButton.disabled = true;
       })
-      .catch(() => {
+      .catch((error) => {
         spanElement.textContent = "Error";
         arriveButton.disabled = true;
         departButton.disabled = true;
+        console.log(console.error(error));
       });
   }
   async function arrive() {
     spanElement.textContent = `Arriving at ${stopObject[stopId]}`
     arriveButton.disabled = true;
     departButton.disabled = false;
+    stopId = stopObject.nextStop;
   }
 
 
