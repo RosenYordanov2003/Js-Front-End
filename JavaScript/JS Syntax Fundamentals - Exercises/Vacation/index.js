@@ -4,12 +4,12 @@ function solve(countPeople, typeOfGroup, day) {
     if (day === "Friday") {
       price = 8.45 * countPeople;
     } else if (day === "Saturday") {
-      price = 9.8 * countPeople;
+      price = 9.80 * countPeople;
     } else {
       price = 10.46 * countPeople;
     }
     if (countPeople >= 30) {
-      price = price - price * 0.15;
+      price = price - (price * 15)/100;
     }
   } 
   
@@ -18,9 +18,9 @@ function solve(countPeople, typeOfGroup, day) {
       countPeople -= 10;
     }
     if (day === "Friday") {
-      price = 10.9 * countPeople;
+      price = 10.90 * countPeople;
     } else if (day === "Saturday") {
-      price = 15.6 * countPeople;
+      price = 15.60 * countPeople;
     } else {
       price = 16 * countPeople;
     }
@@ -33,12 +33,11 @@ function solve(countPeople, typeOfGroup, day) {
     } else if (day === "Saturday") {
       price = 20 * countPeople;
     } else {
-      price = 22.5 * countPeople;
+      price = 22.50 * countPeople;
     }
     if (countPeople >= 10 && countPeople <= 20) {
-      price = price - price * 0.5;
+      price = price - (price * 5)/100;
     }
   }
   console.log(`Total price: ${price.toFixed(2)}`);
 }
-solve(102, "Business", "Friday");
